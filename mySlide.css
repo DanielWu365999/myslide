@@ -1,0 +1,68 @@
+/* myslide 样式*/
+.myslide{
+	width:300px;
+	height: calc(100% - 165px);
+	position: fixed;
+	right:-303px;
+	top:115px;
+	background: white;
+	box-shadow:0px 0px 6px #c3bdbd;
+	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=0, OffY=0, Color=#c3bdbd);
+	-webkit-box-shadow: 0px 0px 6px #c3bdbd;
+	-moz-box-shadow: 0px 0px 6px #c3bdbd;
+	transition: .3s all ease;
+	-moz-transition: .3s all ease;
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	padding:0 0 45px;
+	z-index: 999;
+}
+.myslide h4 {
+	padding-left: 30px;
+	font-size: 21px;
+	line-height: 42px;
+}
+.myslide .tit span.left {
+	width: 4px;
+	height: 16px;
+	display: inline-block;
+	background: #F22936;
+	border-radius: 2px;
+	margin-right: 9px;
+	vertical-align: middle;
+	opacity:0.8;
+}
+.myslide .title{
+	font-size:17px;
+	font-weight:bold;
+}
+.btn-group {
+	position: absolute;
+	bottom: 0;
+}
+.btn-group button {
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 17px;
+	cursor: pointer;
+}
+.btn-yes {
+	background: #EE5761;
+	color: #fff;
+	border: none;
+	margin-left: 0 !important;
+}
+.btn-yes:hover {
+	opacity: 0.8;
+}
+.btn-no {
+	background: #D8D5D5;
+	color: #555;
+	border: none;
+	margin-left: 0 !important;
+}
+.btn-no:hover {
+	background: #ece8e8;
+}
