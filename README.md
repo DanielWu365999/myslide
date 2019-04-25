@@ -11,7 +11,7 @@
 * 
 *语法类似layer.open语法，有layui经验的很容易使用，
 *使用方法：引用js和css即可。
-*eg:
+#eg:
 *mySlide.open({
 *    title:'新建分类',
 *    content:$('#addGroupContent'),
