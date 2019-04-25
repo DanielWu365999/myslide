@@ -11,3 +11,16 @@
 *
 * 
 语法类似layer.open语法，有layui经验的很容易使用
+eg:
+mySlide.open({
+    title:'新建分类',
+    content:$('#addGroupContent'),
+    btn:['确定','取消'],
+    skin:'blue',
+    yes:function(){
+        此处是确定回调
+    },
+    no:function(){
+       此处是取消回调
+    }
+})
